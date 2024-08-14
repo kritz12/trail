@@ -1,0 +1,81 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* App.css */
+.App {
+  text-align: center;
+  width: 820px;
+  border-radius: 10px;
+  
+}
+
+.dark-mode {
+  background-color: #282c34;
+  color: white;
+}
+
+.light-mode {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.theme-toggle-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.theme-toggle-button:hover {
+  background-color: #45a049;
+}
+
+/* Add light and dark mode styles for other elements */
+.dark-mode .App-header {
+  background-color: #282c34;
+  color: white;
+}
+
+.light-mode .App-header {
+  background-color: #ffffff;
+  color: black;
+}
+
+.dark-mode .maincontainer {
+  background-color: #495668;
+  background: linear-gradient(135deg, rgba(7, 8, 7, 0.5), rgba(34, 94, 34, 0.5));
+}
+
+.light-mode .maincontainer {
+  background-color: #ffffff;
+  background: linear-gradient(135deg, rgba(240, 240, 240, 0.5), rgba(200, 200, 200, 0.5));
+}
+
+.dark-mode .form-container {
+  background-color: #282c34;
+  color: white;
+}
+
+.light-mode .form-container {
+  background-color: #ffffff;
+  color: black;
+}

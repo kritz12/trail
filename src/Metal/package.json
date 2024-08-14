@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@foundry/metal": "^0.10.5-beta"
+  }
+}
